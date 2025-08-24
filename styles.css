@@ -167,37 +167,7 @@ h2 {
   position: relative;
 }
 
-.refresh-button-container {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-}
-
-#refresh-data {
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
-  border-radius: 50%;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-#refresh-data:hover {
-  background-color: #e9ecef;
-}
-
-#refresh-data.spinning svg {
-  animation: spin 1s linear infinite;
-}
-
-@keyframes spin {
-  from {transform: rotate(0deg);}
-  to {transform: rotate(360deg);}
-}
+/* Refresh button removed */
 
 @media (max-width: 768px) {
   .progress-container {
@@ -439,4 +409,33 @@ tr:nth-child(even) {
 
 .summary {
   font-weight: bold;
+}
+
+/* Styles for tables moved to the bottom */
+.tables-bottom {
+  margin-top: 2em;
+  border-top: 1px solid #eaeaea;
+  padding-top: 1.5em;
+}
+
+.small-font {
+  font-size: 0.9rem;
+}
+
+.small-font table {
+  font-size: 0.85rem;
+}
+
+.small-font h2 {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .small-font table {
+    font-size: 0.8rem;
+  }
+  
+  .small-font h2 {
+    font-size: 1.1rem;
+  }
 }
