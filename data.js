@@ -51,8 +51,7 @@ const appData = {
   settings: {
     currency: "LKR",
     lastUpdated: "2025-08-24"
-  },
-  translations: {
+  },  translations: {
     en: {
       "project-title": "Fund Raising Project",
       "required": "REQUIRED",
@@ -70,11 +69,12 @@ const appData = {
       "donor-name-placeholder": "Donor Name",
       "amount-placeholder": "Amount in LKR",
       "donate-btn": "Donate",
+      "donate-link": "DONATE NOW",
+      "donation-description": "Support our education initiative! Your contribution helps provide quality education to underprivileged students.",
       "one-time": "One-time",
       "monthly": "Monthly",
       "validation-message": "Please enter valid name and donation amount."
-    },
-    si: {
+    },    si: {
       "project-title": "අරමුදල් රැස් කිරීමේ ව්‍යාපෘතිය",
       "required": "අවශ්‍ය මුදල",
       "collected": "එකතු කළ මුදල",
@@ -91,11 +91,12 @@ const appData = {
       "donor-name-placeholder": "පරිත්‍යාගශීලියාගේ නම",
       "amount-placeholder": "මුදල (LKR)",
       "donate-btn": "පරිත්‍යාග කරන්න",
+      "donate-link": "දැන් පරිත්‍යාග කරන්න",
+      "donation-description": "අපගේ අධ්‍යාපන මුලපිරීම සඳහා සහාය වන්න! ඔබේ දායකත්වය අඩු වරප්‍රසාදිත සිසුන්ට ගුණාත්මක අධ්‍යාපනයක් ලබා දීමට උපකාරී වේ.",
       "one-time": "එක් වරක්",
       "monthly": "මාසික",
       "validation-message": "කරුණාකර වලංගු නමක් සහ පරිත්‍යාග මුදලක් ඇතුළත් කරන්න."
-    },
-    ta: {
+    },    ta: {
       "project-title": "நிதி திரட்டும் திட்டம்",
       "required": "தேவைப்படுகிறது",
       "collected": "சேகரிக்கப்பட்டது",
@@ -112,6 +113,8 @@ const appData = {
       "donor-name-placeholder": "நன்கொடையாளர் பெயர்",
       "amount-placeholder": "தொகை (LKR)",
       "donate-btn": "நன்கொடை அளி",
+      "donate-link": "இப்போது நன்கொடை அளி",
+      "donation-description": "எங்கள் கல்வி முயற்சிக்கு ஆதரவளியுங்கள்! உங்கள் பங்களிப்பு குறைவான வசதி கொண்ட மாணவர்களுக்கு தரமான கல்வியை வழங்க உதவுகிறது.",
       "one-time": "ஒரு முறை",
       "monthly": "மாதாந்திர",
       "validation-message": "சரியான பெயர் மற்றும் நன்கொடை தொகையை உள்ளிடவும்."
